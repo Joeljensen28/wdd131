@@ -1,0 +1,55 @@
+h1 {
+    height: 10vh;
+    background-color: #333333;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.navigation {
+    display: flex;
+    height: 6.66vh;
+    background-color: #000000;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    height: 66.67vh;
+    width: 100%;
+    font-size: 20px;
+}
+
+.main-content {
+    flex: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #cccccc;
+}
+
+.aside-content {
+    flex: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    height: 250px;
+    font-size: 20px;
+}
