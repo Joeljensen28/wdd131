@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 Home Page</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Joel Jensen's index page">
+    <meta name="author" content="Joel Jensen">
+    <title>WDD 131 - Dynamic Web Fundamentals - Joel Jensen</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>
-        Joel Jensen's WDD131 Home Page
-    </h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Joel Jensen</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/joel-jensen-229011173/" class="nav-bar">LinkedIn</a>
+            <a href="https://byui.instructure.com/profile" class="nav-bar">ILearn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p34#p34" class="nav-bar">Scripture</a>
+            <a href="" class="nav-bar">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card" id="about-me">
+            <h2>About Me</h2>
+            <div class="container">
+                <p>My name is Joel Jensen. I was born and raised within 20 minutes of the point of the mountain in Utah and Salt Lake County and most recently lived in Lehi. I have been married for 10 months to my wife who is from Missouri. I am studying computer science with a minor in data science, I love to travel, read, and lift weights.</p>
+                <img src="images/me-and-wife.jpg" alt="Me and my wife" id="me-and-wife">
+            </div>
+            <h3>Utah</h3>
+            <div class="origins">
+                <div>
+                    <img src="images/utah-flag.webp" alt="Utah flag" id="utah-flag">
+                    <p><i>Official Flag of Utah</i></p>
+                </div>
+                <p>Utah is a mountainous desert with beautiful red rocks and snow-capped mountains. It has some of the most beautiful nature in the country and some of the most unique landscapes on earth. With unmatched national parks such as Bryce Canyon, Arches, and Zion, Utah is world-renowned for its breathtaking landscapes and attracts tourists from near and far.</p>
+            </div>
+        </section>
+        <section class="card" id="resources">
+            <h2>Web Dev Resources</h2>
+            <div class="tupperware">
+                <ul>
+                    <li><a href="https://www.kaggle.com/">Kaggle</a></li>
+                    <li><a href="chatgpt.com">ChatGPT</a></li>
+                    <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Joel Jensen, Idaho USA</p>
+        <p id="lastmodified"></p>
+    </footer>
 </body>
 </html>
