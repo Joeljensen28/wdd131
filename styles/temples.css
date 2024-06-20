@@ -72,6 +72,7 @@ figure {
 main figure img {
     max-width: 100%;
     width: 470px;
+    height: auto;
 }
 
 figcaption {
