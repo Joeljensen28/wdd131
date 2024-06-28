@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <meta name="author" content="Joel Jensen">
+    <meta name="description" content="Website for the country assignment">
+</head>
+<body>
+    <header>
+        <h1>Norway</h1>
+    </header>
+    <main>
+        <picture>
+            <picture>
+                <source srcset="images/trolltunga-small.webp" media="(max-width: 500px)">
+                <source srcset="images/trolltunga-large.webp" media="(min-width: 501px)">
+                <img src="images/trolltunga-large.webp" alt="Trolltunga">
+            </picture>
+        </picture>
+        <section class="overlay">
+            <h2>Data</h2>
+            <div>
+                <div class="data">
+                    <b>Area: </b><span>323,802 sq km</span>
+                </div>
+                <div class="data">
+                    <b>Population: </b><span>5.457 million</span>
+                </div>
+                <div class="data">
+                    <b>Capital: </b><span>Oslo</span>
+                </div>
+                <div class="data">
+                    <b>Languages: </b><span>Norwegian</span>
+                </div>
+                <div class="data">
+                    <b>Currency: </b><span>Norwegian Kroner</span>
+                </div>
+                <div class="data">
+                    <b>Time Zone: </b><span>UTC</span>
+                </div>
+                <div class="data">
+                    <b>Calling Code: </b><span>+47</span>
+                </div>
+                <div class="data">
+                    <b>Internet TLD: </b><span>.no</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="weather-icon" class="weather-icon" id="weather-mobile">
+            <i class="weather-icon" id="weather-desktop">🌤️</i>
+            <div>
+                <div class="data">
+                    <b>Temperature: </b><span id="temp-element"></span>
+                </div>
+                <div class="data">
+                    <b>Conditions: </b><span>Partly Cloudy</span>
+                </div>
+                <div class="data">
+                    <b>Wind: </b><span id="wind-speed-element"></span>
+                </div>
+                <div class="data">
+                    <b>Wind Chill: </b><span id="wind-chill-element"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Joel Jensen, Idaho USA</p>
+        <p id="lastmodified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>
