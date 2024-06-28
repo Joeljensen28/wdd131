@@ -53,10 +53,6 @@ h2 {
     height: auto;
 }
 
-#weather-desktop {
-    display: none;
-}
-
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
