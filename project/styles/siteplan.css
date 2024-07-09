@@ -1,0 +1,26 @@
+#primary {
+    background-color: #C9B094;
+}
+
+#secondary {
+    background-color: #947459;
+    color: white;
+}
+
+#tertiary {
+    background-color: #A45547;
+    color: white;
+}
+
+div {
+    max-width: 45%;
+    text-align: center;
+}
+
+#jost {
+    font-family: "Jost";
+}
+
+img {
+    max-width: 45%;
+}
