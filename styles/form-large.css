@@ -1,0 +1,31 @@
+@media screen and (min-width: 501px) {
+    main {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    select {
+        width: 150px;
+    }
+
+    input[type="date"] {
+        width: 150px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    input[type="text"] {
+        width: 150px;
+    }
+
+    input[type="submit"] {
+        text-align: left;
+    }
+
+    #submit {
+        display: block;
+    }
+}

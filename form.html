@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css" media="(min-width: 501px)">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <fieldset>
+                <label for="product-name">Product Name</label>
+                <select name="product-name" id="product-name" required>
+                    <option value="" disabled selected>Select a product...</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="rating">
+                <label for="rating">Overall Rating</label>
+                <div><input type="radio" id="one-star" name="rating" required><span>☆</span></div>
+                <div><input type="radio" id="two-star" name="rating" required><span>☆☆</span></div>
+                <div><input type="radio" id="three-star" name="rating" required><span>☆☆☆</span></div>
+                <div><input type="radio" id="four-star" name="rating" required><span>☆☆☆☆</span></div>
+                <div><input type="radio" id="five-star" name="rating" required><span>☆☆☆☆☆</span></div>
+            </fieldset>
+
+            <fieldset>
+                <label for="installation">Date of Installation</label>
+                <input type="date" id="installation" name="installation" required>
+            </fieldset>
+
+            <fieldset>
+                <div><label for="useful-features">Which features did you find useful in the product?<br><i>(Select all that apply)</i></label></div>
+                <div><input type="checkbox" id="durability" name="useful-features" value="Durability"><span>Durability</span></div>
+                <div><input type="checkbox" id="ease-of-use" name="useful-features" value="Ease of Use"><span>Ease of Use</span></div>
+                <div><input type="checkbox" id="performance" name="useful-features" value="Performace"><span>Performance</span></div>
+                <div><input type="checkbox" id="design" name="useful-features" value="Design"><span>Design</span></div>
+            </fieldset>
+
+            <fieldset>
+                <label for="written-review">Written Review <i class="optional">(Optional)</i></label>
+                <textarea name="written-review" id="written-review"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <label for="user-name">Your Name <i class="optional">(Optional)</i></label>
+                <input type="text" id="user-name" name="user-name">
+            </fieldset>
+
+            <fieldset id="submit">
+                <input type="submit" value="Post Review">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Joel Jensen, Idaho USA</p>
+        <p id="lastmodified"></p>
+    </footer>
+    <script src="scripts/form.js" defer></script>
+</body>
+</html>

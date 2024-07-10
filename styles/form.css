@@ -1,0 +1,27 @@
+h1, footer {
+    background-color: #2d032b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    background-color: #d5cdd5;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 15px;
+}
+
+.optional {
+    color: #00087d;
+}
+
+input[type="submit"] {
+    padding: 20px;
+    margin: 0 auto;
+}
