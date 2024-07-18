@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: "Jost";
+}
+
+header {
+    background-color: #C9B094;
+    margin-bottom: 0px;
+    border: 3px solid #947459;
+}
+
+header div {
+    display: flex;
+    padding: 15px;
+    margin: 0;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    border: 1px solid #947459;
+    background-color: #947459;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    background-color: #A45547;
+    border-top: 3px solid #947459;
+}
+
+nav a {
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-self: center;
+    color: white;
+}
+
+main {
+    text-align: center;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 0;
+}
+
+.wayfinder {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer div h2 {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer div p {
+    margin: 0;
+}
+
+iframe {
+    max-width: 50%;
+    height: auto;
+}
+
+.last {
+    margin-bottom: 25px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: right;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+td {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr td:last-child {
+    border-right: none; 
+}
+
+footer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* New CSS */
+
+form {
+    text-align: left;
+    margin: 15px;
+    background-color: #A45547;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-bottom: none;
+    border: 1px solid black;
+    margin: 0;
+}
+
+form:last-child fieldset {
+    border-bottom: 1px solid black;
+}
+
+input, textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    margin: 5px;
+}
+
+input[type="date"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px black solid;
+}

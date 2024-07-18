@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Joel Jensen's final project">
+    <meta name="author" content="Joel Jensen">
+    <title>Susan's Hair Studio</title>
+    <link rel="stylesheet" href="styles/final-project-home.css">
+    <link rel="stylesheet" href="styles/final-project-home-large.css">
+    <link href="https://fonts.googleapis.com/css?family=Jost%3A300%2C400%2C700&amp;_cacheOverride=1721227205470" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Susan's Hair Studio</h1>
+            <button>☰</button>
+        </div>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="schedule.html">SCHEDULE</a>
+        </nav>
+    </header>
+    <main>
+        <p class="wayfinder"></p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/salon.webp" type="image/webp">
+            <source media="(min-width: 501px)" srcset="images/salon-large.webp" type="image/webp">
+            <img src="images/salon.jpg" alt="Susan's salon" width="900">
+        </picture>
+        <p class="review"><i>"...The first hair stylist I have gone to that I haven't cried after getting my hair done."</i></p>
+        <div class="services">
+            <div>
+                <a href="schedule.html"><img src="images/haircuts.webp" alt="Haircuts" width="450" height="450" loading="lazy"></a>
+                <p>Haircuts</p>
+            </div>
+            <div>
+                <a href="schedule.html"><img src="images/hair-color.webp" alt="Hair coloring" width="450" height="450" loading="lazy"></a>
+                <p>Hair Coloring</p>
+            </div>
+            <div>
+                <a href="schedule.html"><img src="images/hair-styling.webp" alt="Hair styling" width="450" height="450" loading="lazy"></a>
+                <p>Hair Styling</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="map">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97209.3367950345!2d-111.95119673286064!3d40.41346340865658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fedd81a1b69%3A0xfd6fac81600d61c9!2sLehi%2C%20UT!5e0!3m2!1sen!2sus!4v1721169257601!5m2!1sen!2sus" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="address">
+            <p>801-xxx-xxxx</p>
+            <p class="last">50 North Temple Street, Salt Lake City, UT</p>
+        </div>
+        <table>
+            <tr>
+                <td>Monday: </td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Tuesday: </td>
+                <td>10:00 AM - 3:00 PM MST</td>
+            </tr>
+            <tr>
+                <td>Wednesday: </td>
+                <td>10:00 AM - 3:00 PM MST</td>
+            </tr>
+            <tr>
+                <td>Thursday: </td>
+                <td>10:00 AM - 3:00 PM MST</td>
+            </tr>
+            <tr>
+                <td>Friday: </td>
+                <td>Closed</td>
+            </tr>
+        </table>
+        <p><a href="schedule.html">SCHEDULE</a></p>
+        <div class="insta">
+            <a href="https://www.instagram.com/susanshairstudio/" target="_blank"><img src="images/Instagram_logo_2016.svg.webp" alt="Insta logo" width="50" height="50"></a>
+        </div>
+    </footer>
+    <script src="scripts/final-project-home.js" defer></script>
+</body>
+</html>
